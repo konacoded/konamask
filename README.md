@@ -6,6 +6,8 @@
 **Konamask** is an offline voice-masking tool that **converts live microphone input into a generated (synthetic) voice** and exposes it through a virtual microphone.
 It is intended for use with communication apps (for example: Discord) where users want to avoid using their real voice.
 
+![Preview Image](https://shared.konacode.com/github/konamask/konamask-preview-image.webp)
+
 ## Key features
 
 - Real-time voice masking (word-by-word or per sentence).
@@ -85,3 +87,8 @@ make
 
 Most customizations can be made using the config file.
 I've added comments to the more "unusual" settings for clarity.
+
+You can also change it from the GUI (it's not as reliable tho):
+
+![GUI configuration > TTS](https://shared.konacode.com/github/konamask/konamask-configuration-01.webp )
+![GUI configuration > Core settings](https://shared.konacode.com/github/konamask/konamask-configuration-02.webp)
